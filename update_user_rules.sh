@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Author: 11ze
+# GitHub: https://github.com/11ze
+
 USER_RULES_URL="https://raw.githubusercontent.com/ModyQyW/cursor-user-rules/refs/heads/main/aapev.md"
 
 USER_RULES_CONTENT=$(curl -s $USER_RULES_URL)
