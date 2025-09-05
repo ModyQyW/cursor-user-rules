@@ -5,7 +5,10 @@
 
 USER_RULES_URL="https://raw.githubusercontent.com/ModyQyW/cursor-user-rules/refs/heads/main/aapev.md"
 
-USER_RULES_CONTENT=$(curl -s $USER_RULES_URL)
+USER_RULES_CONTENT=$(curl -sf $USER_RULES_URL) || {
+    echo "Error: Failed to fetch user rules from $USER_RULES_URL"
+    exit 1
+}
 
 HOME_DIR=$(echo ~)
 
@@ -21,3 +24,5 @@ for FILE_PATH in "${TARGET_FILES[@]}"; do
         echo "$USER_RULES_CONTENT" > "$FILE_PATH"
     fi
 done
+
+exit 0
