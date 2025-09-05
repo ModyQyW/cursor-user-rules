@@ -2,7 +2,10 @@
   "mcpServers": {
     "context7": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "gitmcp": {
+      "url": "https://gitmcp.io/{owner}/{repo}"
     },
     "repomix": {
       "command": "npx",
@@ -16,6 +19,10 @@
       "command": "uvx",
       "args": ["mcp-server-time"]
     },
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
     "fetch": {
       "command": "uvx",
       "args": ["mcp-server-fetch"]
@@ -25,10 +32,6 @@
     },
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp"
-    },
-    "ddg-search": {
-      "command": "uvx",
-      "args": ["duckduckgo-mcp-server"]
     }
   }
 }

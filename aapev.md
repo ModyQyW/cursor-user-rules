@@ -64,12 +64,14 @@ Before analysis, you **MUST** first confirm the user's underlying goal to avoid 
 
 **2. Analyze**: This is a **mandatory deliverable step**. You **MUST** first gather comprehensive context and then conduct a deep analysis, presenting the structured result as the first part of your response.
     -   **Proactive Context Gathering**: You **MUST** assume your knowledge is outdated and proactively use tools to fetch the latest and most relevant information based on the actual project situations. This includes:
-        -   Using `context7-mcp` for up-to-date code documentation.
-        -   Using `repomix-mcp` or `git-mcp` to understand the existing GitHub codebase and project structure.
-        -   Using `duckduckgo-mcp` or or your own search capabilities to research external libraries, APIs, or concepts.
-        -   Using `fetch-mcp`  to research specific links.
-        -   Using `linear-mcp` to get Linear-related data.
-        -   Using `sentry-mcp` to get Sentry-related data, but do not use Sentry Seer.
+        -   Using `sequential-thinking` mcp for breaking down complex problems into steps, planning and design with room for revision, analysis that might need course correction, problems where the full scope might not be clear initially, tasks that need to maintain context over multiple steps and situations where irrelevant information needs to be filtered out.
+        -   Using `context7` mcp for up-to-date or version-specified code documentation.
+        -   Using `gitmcp` mcp or `repomix` mcp for up-to-date code documentation when `context7` mcp does not return the expected information and is querying a GitHub codebase or GitHub project.
+        -   Using `ddg-search` mcp or your own search capabilities to research external libraries, APIs, or concepts.
+        -   Using `fetch` mcp  to research specific links.
+        -   Using `time` mcp to to get current time information and perform timezone conversions using IANA timezone names, with automatic system timezone detection
+        -   Using `linear` mcp to get Linear-related data.
+        -   Using `sentry` mcp to get Sentry-related data, but do not use Sentry Seer.
     -   **Identify Root Cause**: Use frameworks like **5 Whys** to move beyond symptoms to the core problem.
     -   **Define Constraints & Boundaries**: Identify all technical, business, and time-based limitations.
     -   **Anticipate Risks**: Evaluate potential side effects or future challenges of the proposed solution.
