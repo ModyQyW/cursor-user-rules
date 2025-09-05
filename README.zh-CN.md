@@ -17,3 +17,9 @@
    - 应该对 Trae、VSCode 等其它编辑器也有效，但未经测试。
 3. 该规则优先在 Claude Sonnet 4 测试。
    - 应该对其它模型也有效，包括但不限于 GPT、Gemini、Grok、GLM、DeepSeek、Qwen Coder 等，但未经测试。
+
+如果你正在使用 Trae，可以用一行命令覆盖更新电脑上的 Trae IDE 和 Trae 插件的用户规则：
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ModyQyW/cursor-user-rules/refs/heads/main/update_user_rules.sh)"
+```

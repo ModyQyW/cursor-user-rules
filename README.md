@@ -17,3 +17,9 @@ Please note:
    - It should also be effective for other editors like Trae, VSCode, etc., but has not been tested.
 3. This rule is primarily tested on Claude Sonnet 4.
    - It should also be effective for other models, including but not limited to GPT, Gemini, Grok, GLM, DeepSeek, Qwen Coder, etc., but has not been tested.
+
+If you are using Trae, one-line command to override user rules for updating Trae IDE and Trae plug-in on your computer:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ModyQyW/cursor-user-rules/refs/heads/main/update_user_rules.sh)"
+```
