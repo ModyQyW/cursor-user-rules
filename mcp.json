@@ -1,34 +1,41 @@
 {
   "mcpServers": {
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp",
+      "headers": {}
+    },
     "context7": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
-    },
-    "gitmcp": {
-      "url": "https://gitmcp.io/{owner}/{repo}"
-    },
-    "repomix": {
-      "command": "npx",
-      "args": ["-y", "repomix", "--mcp"]
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
     },
     "sequential-thinking": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@latest"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking@latest"
+      ]
     },
     "time": {
       "command": "uvx",
-      "args": ["mcp-server-time"]
+      "args": [
+        "mcp-server-time"
+      ]
     },
     "ddg-search": {
       "command": "uvx",
-      "args": ["duckduckgo-mcp-server"]
+      "args": [
+        "duckduckgo-mcp-server"
+      ]
     },
     "fetch": {
       "command": "uvx",
-      "args": ["mcp-server-fetch"]
-    },
-    "Linear": {
-      "url": "https://mcp.linear.app/mcp"
+      "args": [
+        "mcp-server-fetch"
+      ]
     },
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp"
