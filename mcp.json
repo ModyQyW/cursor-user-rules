@@ -6,14 +6,14 @@
       "headers": {}
     },
     "context7": {
-      "command": "npx",
+      "command": "bunx",
       "args": [
         "-y",
         "@upstash/context7-mcp"
       ]
     },
     "sequential-thinking": {
-      "command": "npx",
+      "command": "bunx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-sequential-thinking@latest"
@@ -39,6 +39,9 @@
     },
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp"
+    },
+    "deepwiki": {
+      "url": "https://mcp.deepwiki.com/mcp"
     }
   }
 }

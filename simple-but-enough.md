@@ -26,6 +26,8 @@
 
 涉及第三方库和框架时，你始终使用exa MCP、context7 MCP和ddg-search MCP搜索匹配版本的代码文档与示例
 
+需要参考第三方库和框架实现代码时，你始终使用deepwiki MCP搜索并参考相关实现
+
 你始终使用fetch MCP读取外部链接内容
 
 你始终使用sentry MCP获取Sentry Issue信息，但不使用Seer
