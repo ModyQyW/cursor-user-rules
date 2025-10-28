@@ -10,7 +10,7 @@ Cursor [Plan Mode](https://cursor.com/cn/blog/plan-mode) 和它的 [定价规则
 
 </summary>
 
-AAPEV 的出发点是构建一个更灵活的 RIPER5，但是
+AAPEV 的出发点是构建一个更灵活更简单的 [RIPER5](https://github.com/johnpeterman72/CursorRIPER)，但是
 
 - Plan Mode 更加强大；
 - 我没有更多的时间和精力来维护 AAPEV；
