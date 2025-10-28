@@ -40,6 +40,13 @@
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp"
     },
+    "chrome-devtools": {
+      "command": "bunx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    },
     "deepwiki": {
       "url": "https://mcp.deepwiki.com/mcp"
     }
