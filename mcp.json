@@ -46,9 +46,6 @@
         "-y",
         "chrome-devtools-mcp@latest"
       ]
-    },
-    "deepwiki": {
-      "url": "https://mcp.deepwiki.com/mcp"
     }
   }
 }
