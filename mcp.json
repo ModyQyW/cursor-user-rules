@@ -12,23 +12,10 @@
         "@upstash/context7-mcp"
       ]
     },
-    "sequential-thinking": {
-      "command": "bunx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking@latest"
-      ]
-    },
     "time": {
       "command": "uvx",
       "args": [
         "mcp-server-time"
-      ]
-    },
-    "ddg-search": {
-      "command": "uvx",
-      "args": [
-        "duckduckgo-mcp-server"
       ]
     },
     "fetch": {

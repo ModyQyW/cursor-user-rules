@@ -41,13 +41,7 @@ Prioritize stability and maintainability over performance.
 If performance tuning is needed, raise it for discussion first.
 Prefer incremental and minimal changes over large refactors, and discuss major refactors before proceeding.
 
-When absolute time or current state is required, use the `time MCP` for the current date/time and never rely on outdated info.
-
-Always use context7 MCP when code generation, setup/configuration steps, or library/API documentation is needed.
-Automatically use context7 MCP tools to resolve library IDs and retrieve documentation without requiring explicit user requests.
-Use exa MCP and ddg-search MCP as fallbacks for context7 MCP.
-
-Always use fetch MCP to read external link content.
-Always use sentry MCP to access Sentry Issue data (never use Seer).
-Always use sequential-thinking MCP for complex reasoning.
-Always use chrome-devtools MCP for inspecting, debugging, and modifying data in browsers or DevTools.
+When absolute time or current state is required, use time MCP for the current date/time and never rely on outdated info.
+When working with libraries, check the docs with exa MCP. Use context7 MCP and web search tool as fallbacks.
+Use sentry MCP to access Sentry Issue data and never use Seer. Analyze the root cause and provide the best solution. Apply the changes directly if the scope of the modification is small; otherwise, request confirmation.
+Use fetch MCP to fetch content from a specified URL.
