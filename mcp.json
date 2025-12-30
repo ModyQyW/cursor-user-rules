@@ -1,32 +1,64 @@
 {
   "mcpServers": {
     "exa": {
+      "headers": {},
       "type": "http",
-      "url": "https://mcp.exa.ai/mcp",
-      "headers": {}
+      "url": "https://mcp.exa.ai/mcp?tools=get_code_context_exa"
     },
     "context7": {
-      "command": "bunx",
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_KEY_OR_KEEP_HEADERS_EMPTY"
+      },
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+
+    "github": {
+      "headers": {
+        "Authorization": "Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+      },
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "deepwiki": {
+      "type": "http",
+      "url": "https://mcp.deepwiki.com/mcp"
+    },
+    "zread": {
+      "headers": {
+        "Authorization": "Bearer YOUR_GLM_API_KEY"
+      },
+      "type": "http",
+      "url": "https://open.bigmodel.cn/api/mcp/zread/mcp"
+    },
+
+    "time": {
+      "args": ["mcp-server-time"],
+      "command": "uvx"
+    },
+
+    "fetch": {
+      "args": ["mcp-server-fetch"],
+      "command": "uvx"
+    },
+
+    "zai-mcp-server": {
       "args": [
         "-y",
-        "@upstash/context7-mcp"
-      ]
+        "@z_ai/mcp-server"
+      ],
+      "command": "npx",
+      "env": {
+        "Z_AI_API_KEY": "YOUR_GLM_API_KEY",
+        "Z_AI_MODE": "ZHIPU"
+      },
+      "type": "stdio"
     },
-    "time": {
-      "command": "uvx",
-      "args": [
-        "mcp-server-time"
-      ]
-    },
-    "fetch": {
-      "command": "uvx",
-      "args": [
-        "mcp-server-fetch"
-      ]
-    },
+
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp"
     },
+
     "chrome-devtools": {
       "command": "bunx",
       "args": [

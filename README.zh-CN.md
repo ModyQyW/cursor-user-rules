@@ -36,12 +36,13 @@ AAPEV 的出发点是构建一个更灵活更简单的 [RIPER5](https://github.c
 ## 注意
 
 1. 请自行安装 MCP Servers 和全局包。
-   - MCP Servers 见 [mcp.json](./mcp.json)。
+   - MCP Servers 见 [mcp.json](./mcp.json)。可酌情删减。
    - 全局包包括 `nodejs`、`bun`、`python3`、`fnm`、`uv`、`@antfu/ni`、`tsx`、`rimraf`。
    - 如果没有安装 MCP Servers，理论上也不影响。
    - 如果需要支持 Trae、VSCode 等其它编辑器，可能需要调整格式。
 2. 该规则优先在 Cursor 测试。
    - 应该对 Trae、VSCode 等其它编辑器也有效，但未经测试。
+   - 应该对 Claude Code、Codex、Gemini CLI 等 CLI 工具也有效，但未经测试。
 3. 该规则优先在 GPT 测试。
    - 应该对其它模型也有效，包括但不限于 Claude、Gemini、Grok、GLM、DeepSeek、Qwen Coder 等，但未经测试。
 

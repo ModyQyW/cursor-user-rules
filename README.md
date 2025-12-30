@@ -36,12 +36,13 @@ Therefore, I have decided to abandon the maintenance of AAPEV and switch to simp
 ## Notes
 
 1. Please install MCP Servers and global packages yourself.
-   - See [mcp.json](./mcp.json) for MCP Servers.
+   - See [mcp.json](./mcp.json) for MCP Servers. Update it as you like.
    - Global packages include `nodejs`, `bun`, `python3`, `fnm`, `uv`, `@antfu/ni`, `tsx`, `rimraf`.
    - Theoretically, it does not affect if MCP Servers are not installed.
    - If you need to support other editors like Trae, VSCode, etc., you may need to adjust the format.
 2. These rules are tested primarily in Cursor.
    - They should also be effective for other editors like Trae, VSCode, etc., but have not been tested.
+   - They should also be effective for other CLI like Claude Code, Codex, Gemini CLI, etc., but have not been tested.
 3. These rules are tested primarily with GPT.
    - They should also be effective for other models, including but not limited to Claude, Gemini, Grok, GLM, DeepSeek, Qwen Coder, etc., but have not been tested.
 
