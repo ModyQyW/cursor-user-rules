@@ -13,6 +13,21 @@
       "url": "https://mcp.context7.com/mcp"
     },
 
+    "time": {
+      "args": ["mcp-server-time"],
+      "command": "uvx"
+    },
+
+    "fetch": {
+      "args": ["mcp-server-fetch"],
+      "command": "uvx"
+    },
+
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
+
     "github": {
       "headers": {
         "Authorization": "Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
@@ -30,16 +45,6 @@
       },
       "type": "http",
       "url": "https://open.bigmodel.cn/api/mcp/zread/mcp"
-    },
-
-    "time": {
-      "args": ["mcp-server-time"],
-      "command": "uvx"
-    },
-
-    "fetch": {
-      "args": ["mcp-server-fetch"],
-      "command": "uvx"
     },
 
     "zai-mcp-server": {

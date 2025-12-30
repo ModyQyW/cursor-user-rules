@@ -84,15 +84,10 @@ Additional requirements:
 
 - When absolute time or current state is required, use time MCP. Never rely on outdated information.
 
-- When code generation, setup/configuration steps, or library/API documentation is required, use exa MCP by default.
-- Use context7 MCP or web search tool as fallbacks.
+- When code generation, setup/configuration steps, or library/API documentation is required, use exa MCP by default. Use context7 MCP, ddg-search MCP or WebSearch tool as fallbacks.
 
-- Use sentry MCP to access Sentry Issue data. Never use Seer.
-- Analyze root causes and provide the best solution.
-- Apply changes directly if the scope is small; otherwise, request confirmation.
+- Use sentry MCP to access Sentry Issue data. Never use Seer. Analyze root causes and provide the best solution. Apply changes directly if the scope is small; otherwise, request confirmation.
 
-- Use github MCP to browse GitHub repositories, search code, and query files.
-- Use deepwiki MCP, zread MCP, web fetch tool, or web search tool as fallbacks.
+- Use github MCP to browse GitHub repositories, search code, and query files. Use deepwiki MCP, zread MCP, fetch MCP, ddg-search MCP, WebFetch tool, or WebSearch tool as fallbacks.
 
-- Use web fetch tool to read external link content recursively.
-- Use fetch MCP as fallbacks.
+- Use fetch MCP to read external link content recursively. Use WebFetch tool as fallback.
