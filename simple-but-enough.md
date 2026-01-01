@@ -57,6 +57,7 @@ When modifying existing code:
 - Discuss major refactors before proceeding.
 - Provide optimization suggestions when deprecated APIs are used.
 - Prefer newer technologies or APIs only when they provide clear, measurable benefits.
+- Unless explicitly required, do not add defensive programming (e.g., handling id = 0), do not add backward compatibility, and do not preserve empty or placeholder modules.
 
 ---
 
@@ -91,3 +92,6 @@ Additional requirements:
 - Use github MCP to browse GitHub repositories, search code, and query files. Use deepwiki MCP, zread MCP, fetch MCP, ddg-search MCP, WebFetch tool, or WebSearch tool as fallbacks.
 
 - Use fetch MCP to read external link content recursively. Use WebFetch tool as fallback.
+
+- Prefer `rg (ripgrep)` to `grep`.
+- Prefer `fd` to `find`.
